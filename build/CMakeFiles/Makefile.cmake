@@ -33,6 +33,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/lib/cmake/Pangolin/PangolinConfigVersion.cmake"
   "/usr/local/lib/cmake/Pangolin/PangolinTargets-release.cmake"
   "/usr/local/lib/cmake/Pangolin/PangolinTargets.cmake"
+  "/usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake"
+  "/usr/local/lib/cmake/opencv4/OpenCVConfig.cmake"
+  "/usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake"
+  "/usr/local/lib/cmake/opencv4/OpenCVModules.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c"
   "/usr/share/cmake-3.22/Modules/CMakeCInformation.cmake"
@@ -159,5 +163,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/CeresDemo.dir/DependInfo.cmake"
+  "CMakeFiles/optDemo.dir/DependInfo.cmake"
   )

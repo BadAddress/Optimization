@@ -1,0 +1,4 @@
+./CeresDemo 
+terminate called after throwing an instance of 'std::invalid_argument'
+  what():  'Look' and 'up' vectors cannot be parallel when calling ModelViewLookAt.
+Aborted (core dumped)

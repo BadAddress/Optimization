@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/bl/Desktop/Optimization/ceresDemo.cpp" "CMakeFiles/CeresDemo.dir/ceresDemo.cpp.o" "gcc" "CMakeFiles/CeresDemo.dir/ceresDemo.cpp.o.d"
+  "/home/bl/Desktop/Optimization/optDemo.cpp" "CMakeFiles/optDemo.dir/optDemo.cpp.o" "gcc" "CMakeFiles/optDemo.dir/optDemo.cpp.o.d"
   )
 
 # Targets to which this target links.

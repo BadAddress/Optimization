@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named CeresDemo
+# Target rules for targets named optDemo
 
 # Build rule for target.
-CeresDemo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CeresDemo
-.PHONY : CeresDemo
+optDemo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 optDemo
+.PHONY : optDemo
 
 # fast build rule for target.
-CeresDemo/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CeresDemo.dir/build.make CMakeFiles/CeresDemo.dir/build
-.PHONY : CeresDemo/fast
+optDemo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/optDemo.dir/build.make CMakeFiles/optDemo.dir/build
+.PHONY : optDemo/fast
 
-ceresDemo.o: ceresDemo.cpp.o
-.PHONY : ceresDemo.o
+optDemo.o: optDemo.cpp.o
+.PHONY : optDemo.o
 
 # target to build an object file
-ceresDemo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CeresDemo.dir/build.make CMakeFiles/CeresDemo.dir/ceresDemo.cpp.o
-.PHONY : ceresDemo.cpp.o
+optDemo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/optDemo.dir/build.make CMakeFiles/optDemo.dir/optDemo.cpp.o
+.PHONY : optDemo.cpp.o
 
-ceresDemo.i: ceresDemo.cpp.i
-.PHONY : ceresDemo.i
+optDemo.i: optDemo.cpp.i
+.PHONY : optDemo.i
 
 # target to preprocess a source file
-ceresDemo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CeresDemo.dir/build.make CMakeFiles/CeresDemo.dir/ceresDemo.cpp.i
-.PHONY : ceresDemo.cpp.i
+optDemo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/optDemo.dir/build.make CMakeFiles/optDemo.dir/optDemo.cpp.i
+.PHONY : optDemo.cpp.i
 
-ceresDemo.s: ceresDemo.cpp.s
-.PHONY : ceresDemo.s
+optDemo.s: optDemo.cpp.s
+.PHONY : optDemo.s
 
 # target to generate assembly for a file
-ceresDemo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CeresDemo.dir/build.make CMakeFiles/CeresDemo.dir/ceresDemo.cpp.s
-.PHONY : ceresDemo.cpp.s
+optDemo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/optDemo.dir/build.make CMakeFiles/optDemo.dir/optDemo.cpp.s
+.PHONY : optDemo.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... CeresDemo"
-	@echo "... ceresDemo.o"
-	@echo "... ceresDemo.i"
-	@echo "... ceresDemo.s"
+	@echo "... optDemo"
+	@echo "... optDemo.o"
+	@echo "... optDemo.i"
+	@echo "... optDemo.s"
 .PHONY : help
 
 
